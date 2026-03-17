@@ -22,7 +22,7 @@ class Todo:
         return temp
 
     def __str__(self):
-        return f"[x] {self.title}" if self.completed else f"[ ] {self.title}"
+        return f"[X] {self.title}" if self.completed else f"[ ] {self.title}"
     
     @classmethod 
     def from_dict(cls, data):
